@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: 4;
 }
 
 .spiderman img {
@@ -52,4 +52,89 @@
 
 .name-spider .title #man-title {
   font-size: 13rem;
+}
+
+/* NavBar */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* max-width: 80%; */
+  position: absolute;
+  z-index: 5;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.linha-vertical {
+  height: 500px; /*Altura da linha*/
+  border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
+
+.socials ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.socials ul li {
+  margin-left: 5px;
+}
+
+.socials ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space {
+  padding-right: 8px;
+  border-right: 1px solid white;
+}
+
+.designby {
+  position: absolute;
+  top: 65%;
+  left: 86.5%;
+}
+
+.top-border {
+  border-top: 3px solid white;
+}
+
+.designby span {
+  color: #945251;
+  font-weight: 500;
+}
+
+.designby a {
+  text-decoration: none;
+  color: white;
+}
+
+.socialmedia {
+  position: absolute;
+  top: 50%;
+  left: 10.1%;
+}
+
+.socialmedia svg {
+  margin-bottom: 30px;
 }
